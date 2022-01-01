@@ -1,1 +1,1 @@
-# deploying-applications-with-kubernetes-best-practices
+# Deploying Apps with Kubernetes
