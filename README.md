@@ -8,11 +8,13 @@ kubectl apply -f nginx/
 
 ## Kustomize
 
+To generate rendered manifest files:
+
 ```sh
 kubectl kustomize kustomize/environments/development/
 ```
 
-or
+To apply Kustomization:
 
 ```sh
 kubectl apply -k kustomize/environment/development/
